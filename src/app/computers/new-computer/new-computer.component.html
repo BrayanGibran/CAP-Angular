@@ -1,0 +1,20 @@
+<div class="container" *ngIf="formComputer" [formGroup]="formComputer">
+  <mat-form-field>
+    <mat-label> Marca </mat-label>
+    <input matInput formControlName="brand" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label> Modelo </mat-label>
+    <input matInput formControlName="model" />
+  </mat-form-field>
+
+  <button
+    mat-raised-button
+    color="primary"
+    [disabled]="formComputer.invalid"
+    (click)="saveComputer()"
+  >
+    Guardar
+  </button>
+</div>

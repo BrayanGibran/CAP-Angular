@@ -1,0 +1,24 @@
+{
+  "users": {
+    "id": 1,
+    "name": "Test",
+    "age": 12
+  },
+  "computers": [
+    {
+      "id": 1,
+      "brand": "Dell",
+      "model": "Allienware"
+    },
+    {
+      "id": 2,
+      "brand": "Pavilion",
+      "model": "Pavilion351"
+    },
+    {
+      "brand": "Lenovo",
+      "model": "Lenovo123",
+      "id": 3
+    }
+  ]
+}
